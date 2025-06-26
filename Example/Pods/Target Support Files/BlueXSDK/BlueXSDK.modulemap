@@ -1,0 +1,6 @@
+framework module BlueXSDK {
+  umbrella header "BlueXSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

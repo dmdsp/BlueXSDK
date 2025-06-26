@@ -1,5 +1,5 @@
 PODS:
-  - BlueXSDK (0.1.0):
+  - BlueXSDK (0.2.0):
     - Protobuf (~> 3.27)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
@@ -22,10 +22,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BlueXSDK: 08cdc4f0a76add371cd582c50fdd416e87232704
+  BlueXSDK: 44add65b83af6f1133ad1eb621b1b92f7b515501
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Protobuf: 2e6de032ba12b9efb390ae550d1a243a5b19ddfc
 
-PODFILE CHECKSUM: f8d2a489e1a33b854728b52b0082d5934edd23e6
+PODFILE CHECKSUM: fb0b9934fbf4f22edd8029536995caf95c49a21c
 
 COCOAPODS: 1.15.2

@@ -1,6 +1,6 @@
 {
   "name": "BlueXSDK",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "A lightweight ad SDK. 轻量级广告SDK",
   "description": "BlueXSDK is a lightweight ad SDK for iOS, easy to integrate and use.\nBlueXSDK 是一个轻量级的 iOS 广告 SDK，集成简单，使用方便。",
   "homepage": "https://github.com/dmdsp/BlueXSDK",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/dmdsp/DomobAdSDK.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
   "frameworks": [
     "AdSupport",

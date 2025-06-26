@@ -209,6 +209,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				2C5AC2DA93A44A26C4CE291F /* [CP] Embed Pods Frameworks */,
+				04CC81D05A344C3C9F1DB319 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -296,6 +297,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		04CC81D05A344C3C9F1DB319 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueXSDK_Example/Pods-BlueXSDK_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/BlueXSDK/DomobAdSDK_Bundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DomobAdSDK_Bundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlueXSDK_Example/Pods-BlueXSDK_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2C5AC2DA93A44A26C4CE291F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -303,11 +322,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BlueXSDK_Example/Pods-BlueXSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BlueXSDK/BlueXSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlueXSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

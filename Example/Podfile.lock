@@ -1,10 +1,12 @@
 PODS:
-  - BlueXSDK (0.1.0)
+  - BlueXSDK (0.1.0):
+    - Protobuf (~> 3.27)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - Protobuf (3.29.4)
 
 DEPENDENCIES:
   - BlueXSDK (from `../`)
@@ -13,14 +15,16 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - Protobuf
 
 EXTERNAL SOURCES:
   BlueXSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BlueXSDK: b37f3c5dfd16b69078da68f9167cc6e72f76f70d
+  BlueXSDK: 08cdc4f0a76add371cd582c50fdd416e87232704
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Protobuf: 2e6de032ba12b9efb390ae550d1a243a5b19ddfc
 
 PODFILE CHECKSUM: f8d2a489e1a33b854728b52b0082d5934edd23e6
 

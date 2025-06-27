@@ -23,6 +23,39 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		72C80E8BC1E4BE7DA4CA5A5C /* Pods_BlueXSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3E1ED460D5E84CBC03092A /* Pods_BlueXSDK_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BCB18E3D2E0E747200A12553 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18DE12E0E747200A12553 /* UIView+Toast.m */; };
+		BCB18E3E2E0E747200A12553 /* DomobBannerCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18DE32E0E747200A12553 /* DomobBannerCustomEvent.m */; };
+		BCB18E3F2E0E747200A12553 /* DomobCustomBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18DE52E0E747200A12553 /* DomobCustomBannerAdapter.m */; };
+		BCB18E402E0E747200A12553 /* DomobBiddingDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18DE82E0E747200A12553 /* DomobBiddingDelegate.m */; };
+		BCB18E412E0E747200A12553 /* DomobBiddingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18DEA2E0E747200A12553 /* DomobBiddingManager.m */; };
+		BCB18E422E0E747200A12553 /* DomobBiddingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18DEC2E0E747200A12553 /* DomobBiddingRequest.m */; };
+		BCB18E432E0E747200A12553 /* DomobCustomNativeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18DEF2E0E747200A12553 /* DomobCustomNativeAdapter.m */; };
+		BCB18E442E0E747200A12553 /* DomobNativeCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18DF12E0E747200A12553 /* DomobNativeCustomEvent.m */; };
+		BCB18E452E0E747200A12553 /* DomobNativeRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18DF32E0E747200A12553 /* DomobNativeRenderer.m */; };
+		BCB18E462E0E747200A12553 /* DomobCustomRewardedVideoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18DF62E0E747200A12553 /* DomobCustomRewardedVideoAdapter.m */; };
+		BCB18E472E0E747200A12553 /* DomobRewardedVideoCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18DF82E0E747200A12553 /* DomobRewardedVideoCustomEvent.m */; };
+		BCB18E482E0E747200A12553 /* DomobCustomSplashAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18DFB2E0E747200A12553 /* DomobCustomSplashAdapter.m */; };
+		BCB18E492E0E747200A12553 /* DomobSplashCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18DFD2E0E747200A12553 /* DomobSplashCustomEvent.m */; };
+		BCB18E4A2E0E747200A12553 /* AdmobDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E012E0E747200A12553 /* AdmobDemoViewController.m */; };
+		BCB18E4B2E0E747200A12553 /* DomobBannerTradPlusAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E042E0E747200A12553 /* DomobBannerTradPlusAdapter.m */; };
+		BCB18E4C2E0E747200A12553 /* DomobNativeTradPlusAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E072E0E747200A12553 /* DomobNativeTradPlusAdapter.m */; };
+		BCB18E4D2E0E747200A12553 /* DomobRewardedTradPlusAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E0A2E0E747200A12553 /* DomobRewardedTradPlusAdapter.m */; };
+		BCB18E4E2E0E747200A12553 /* DomobSplashTradPlusAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E0D2E0E747200A12553 /* DomobSplashTradPlusAdapter.m */; };
+		BCB18E4F2E0E747200A12553 /* TradplusDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E102E0E747200A12553 /* TradplusDemoViewController.m */; };
+		BCB18E502E0E747200A12553 /* DomobBannerAdmobAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E132E0E747200A12553 /* DomobBannerAdmobAdapter.m */; };
+		BCB18E512E0E747200A12553 /* DomobCustomEventAdmobAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E152E0E747200A12553 /* DomobCustomEventAdmobAdapter.m */; };
+		BCB18E522E0E747200A12553 /* DomobRewardVideoAdmobAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E172E0E747200A12553 /* DomobRewardVideoAdmobAdapter.m */; };
+		BCB18E532E0E747200A12553 /* BannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E1A2E0E747200A12553 /* BannerAdViewController.m */; };
+		BCB18E542E0E747200A12553 /* InterstitialAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E1C2E0E747200A12553 /* InterstitialAdViewController.m */; };
+		BCB18E552E0E747200A12553 /* NativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E1E2E0E747200A12553 /* NativeAdViewController.m */; };
+		BCB18E562E0E747200A12553 /* RewardVideoAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E202E0E747200A12553 /* RewardVideoAdViewController.m */; };
+		BCB18E572E0E747200A12553 /* SplashAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E222E0E747200A12553 /* SplashAViewController.m */; };
+		BCB18E582E0E747200A12553 /* ALBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E252E0E747200A12553 /* ALBannerViewController.m */; };
+		BCB18E592E0E747200A12553 /* ALDomobMediationAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E282E0E747200A12553 /* ALDomobMediationAdapter.m */; };
+		BCB18E622E0E747200A12553 /* ToponBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E342E0E747200A12553 /* ToponBannerViewController.m */; };
+		BCB18E632E0E747200A12553 /* ToponNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E362E0E747200A12553 /* ToponNativeViewController.m */; };
+		BCB18E642E0E747200A12553 /* ToponRewardVideoAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E382E0E747200A12553 /* ToponRewardVideoAdViewController.m */; };
+		BCB18E652E0E747200A12553 /* ToponSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB18E3A2E0E747200A12553 /* ToponSplashViewController.m */; };
 		BD08C7650A95DE7D61F6E552 /* Pods_BlueXSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8793559D86117223A902898 /* Pods_BlueXSDK_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +70,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		53B8E29272798B492F4621D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		53B8E29272798B492F4621D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		54E96627AD26DF538F90BBB4 /* Pods-BlueXSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueXSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-BlueXSDK_Example/Pods-BlueXSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BlueXSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueXSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,13 +92,79 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		72ED4F4B3A90C3CBBC9528D3 /* BlueXSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BlueXSDK.podspec; path = ../BlueXSDK.podspec; sourceTree = "<group>"; };
+		72ED4F4B3A90C3CBBC9528D3 /* BlueXSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BlueXSDK.podspec; path = ../BlueXSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		75A39953409FDF5DE666E3E3 /* Pods-BlueXSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueXSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BlueXSDK_Tests/Pods-BlueXSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		85523F92A7AFD62F8C25595D /* Pods-BlueXSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueXSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-BlueXSDK_Tests/Pods-BlueXSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		974CF680D3D0F60C84124D96 /* Pods-BlueXSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueXSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-BlueXSDK_Example/Pods-BlueXSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A18BA524778CFB52F93EDB75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A18BA524778CFB52F93EDB75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AC3E1ED460D5E84CBC03092A /* Pods_BlueXSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueXSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB18DE12E0E747200A12553 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		BCB18DE22E0E747200A12553 /* DomobBannerCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobBannerCustomEvent.h; sourceTree = "<group>"; };
+		BCB18DE32E0E747200A12553 /* DomobBannerCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobBannerCustomEvent.m; sourceTree = "<group>"; };
+		BCB18DE42E0E747200A12553 /* DomobCustomBannerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobCustomBannerAdapter.h; sourceTree = "<group>"; };
+		BCB18DE52E0E747200A12553 /* DomobCustomBannerAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobCustomBannerAdapter.m; sourceTree = "<group>"; };
+		BCB18DE72E0E747200A12553 /* DomobBiddingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobBiddingDelegate.h; sourceTree = "<group>"; };
+		BCB18DE82E0E747200A12553 /* DomobBiddingDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobBiddingDelegate.m; sourceTree = "<group>"; };
+		BCB18DE92E0E747200A12553 /* DomobBiddingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobBiddingManager.h; sourceTree = "<group>"; };
+		BCB18DEA2E0E747200A12553 /* DomobBiddingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobBiddingManager.m; sourceTree = "<group>"; };
+		BCB18DEB2E0E747200A12553 /* DomobBiddingRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobBiddingRequest.h; sourceTree = "<group>"; };
+		BCB18DEC2E0E747200A12553 /* DomobBiddingRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobBiddingRequest.m; sourceTree = "<group>"; };
+		BCB18DEE2E0E747200A12553 /* DomobCustomNativeAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobCustomNativeAdapter.h; sourceTree = "<group>"; };
+		BCB18DEF2E0E747200A12553 /* DomobCustomNativeAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobCustomNativeAdapter.m; sourceTree = "<group>"; };
+		BCB18DF02E0E747200A12553 /* DomobNativeCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobNativeCustomEvent.h; sourceTree = "<group>"; };
+		BCB18DF12E0E747200A12553 /* DomobNativeCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobNativeCustomEvent.m; sourceTree = "<group>"; };
+		BCB18DF22E0E747200A12553 /* DomobNativeRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobNativeRenderer.h; sourceTree = "<group>"; };
+		BCB18DF32E0E747200A12553 /* DomobNativeRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobNativeRenderer.m; sourceTree = "<group>"; };
+		BCB18DF52E0E747200A12553 /* DomobCustomRewardedVideoAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobCustomRewardedVideoAdapter.h; sourceTree = "<group>"; };
+		BCB18DF62E0E747200A12553 /* DomobCustomRewardedVideoAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobCustomRewardedVideoAdapter.m; sourceTree = "<group>"; };
+		BCB18DF72E0E747200A12553 /* DomobRewardedVideoCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobRewardedVideoCustomEvent.h; sourceTree = "<group>"; };
+		BCB18DF82E0E747200A12553 /* DomobRewardedVideoCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobRewardedVideoCustomEvent.m; sourceTree = "<group>"; };
+		BCB18DFA2E0E747200A12553 /* DomobCustomSplashAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobCustomSplashAdapter.h; sourceTree = "<group>"; };
+		BCB18DFB2E0E747200A12553 /* DomobCustomSplashAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobCustomSplashAdapter.m; sourceTree = "<group>"; };
+		BCB18DFC2E0E747200A12553 /* DomobSplashCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobSplashCustomEvent.h; sourceTree = "<group>"; };
+		BCB18DFD2E0E747200A12553 /* DomobSplashCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobSplashCustomEvent.m; sourceTree = "<group>"; };
+		BCB18E002E0E747200A12553 /* AdmobDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdmobDemoViewController.h; sourceTree = "<group>"; };
+		BCB18E012E0E747200A12553 /* AdmobDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdmobDemoViewController.m; sourceTree = "<group>"; };
+		BCB18E032E0E747200A12553 /* DomobBannerTradPlusAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobBannerTradPlusAdapter.h; sourceTree = "<group>"; };
+		BCB18E042E0E747200A12553 /* DomobBannerTradPlusAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobBannerTradPlusAdapter.m; sourceTree = "<group>"; };
+		BCB18E062E0E747200A12553 /* DomobNativeTradPlusAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobNativeTradPlusAdapter.h; sourceTree = "<group>"; };
+		BCB18E072E0E747200A12553 /* DomobNativeTradPlusAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobNativeTradPlusAdapter.m; sourceTree = "<group>"; };
+		BCB18E092E0E747200A12553 /* DomobRewardedTradPlusAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobRewardedTradPlusAdapter.h; sourceTree = "<group>"; };
+		BCB18E0A2E0E747200A12553 /* DomobRewardedTradPlusAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobRewardedTradPlusAdapter.m; sourceTree = "<group>"; };
+		BCB18E0C2E0E747200A12553 /* DomobSplashTradPlusAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobSplashTradPlusAdapter.h; sourceTree = "<group>"; };
+		BCB18E0D2E0E747200A12553 /* DomobSplashTradPlusAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobSplashTradPlusAdapter.m; sourceTree = "<group>"; };
+		BCB18E0F2E0E747200A12553 /* TradplusDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradplusDemoViewController.h; sourceTree = "<group>"; };
+		BCB18E102E0E747200A12553 /* TradplusDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradplusDemoViewController.m; sourceTree = "<group>"; };
+		BCB18E122E0E747200A12553 /* DomobBannerAdmobAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobBannerAdmobAdapter.h; sourceTree = "<group>"; };
+		BCB18E132E0E747200A12553 /* DomobBannerAdmobAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobBannerAdmobAdapter.m; sourceTree = "<group>"; };
+		BCB18E142E0E747200A12553 /* DomobCustomEventAdmobAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobCustomEventAdmobAdapter.h; sourceTree = "<group>"; };
+		BCB18E152E0E747200A12553 /* DomobCustomEventAdmobAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobCustomEventAdmobAdapter.m; sourceTree = "<group>"; };
+		BCB18E162E0E747200A12553 /* DomobRewardVideoAdmobAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomobRewardVideoAdmobAdapter.h; sourceTree = "<group>"; };
+		BCB18E172E0E747200A12553 /* DomobRewardVideoAdmobAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomobRewardVideoAdmobAdapter.m; sourceTree = "<group>"; };
+		BCB18E192E0E747200A12553 /* BannerAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerAdViewController.h; sourceTree = "<group>"; };
+		BCB18E1A2E0E747200A12553 /* BannerAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerAdViewController.m; sourceTree = "<group>"; };
+		BCB18E1B2E0E747200A12553 /* InterstitialAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialAdViewController.h; sourceTree = "<group>"; };
+		BCB18E1C2E0E747200A12553 /* InterstitialAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialAdViewController.m; sourceTree = "<group>"; };
+		BCB18E1D2E0E747200A12553 /* NativeAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeAdViewController.h; sourceTree = "<group>"; };
+		BCB18E1E2E0E747200A12553 /* NativeAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeAdViewController.m; sourceTree = "<group>"; };
+		BCB18E1F2E0E747200A12553 /* RewardVideoAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardVideoAdViewController.h; sourceTree = "<group>"; };
+		BCB18E202E0E747200A12553 /* RewardVideoAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardVideoAdViewController.m; sourceTree = "<group>"; };
+		BCB18E212E0E747200A12553 /* SplashAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashAViewController.h; sourceTree = "<group>"; };
+		BCB18E222E0E747200A12553 /* SplashAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashAViewController.m; sourceTree = "<group>"; };
+		BCB18E242E0E747200A12553 /* ALBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALBannerViewController.h; sourceTree = "<group>"; };
+		BCB18E252E0E747200A12553 /* ALBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALBannerViewController.m; sourceTree = "<group>"; };
+		BCB18E272E0E747200A12553 /* ALDomobMediationAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDomobMediationAdapter.h; sourceTree = "<group>"; };
+		BCB18E282E0E747200A12553 /* ALDomobMediationAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDomobMediationAdapter.m; sourceTree = "<group>"; };
+		BCB18E332E0E747200A12553 /* ToponBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToponBannerViewController.h; sourceTree = "<group>"; };
+		BCB18E342E0E747200A12553 /* ToponBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToponBannerViewController.m; sourceTree = "<group>"; };
+		BCB18E352E0E747200A12553 /* ToponNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToponNativeViewController.h; sourceTree = "<group>"; };
+		BCB18E362E0E747200A12553 /* ToponNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToponNativeViewController.m; sourceTree = "<group>"; };
+		BCB18E372E0E747200A12553 /* ToponRewardVideoAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToponRewardVideoAdViewController.h; sourceTree = "<group>"; };
+		BCB18E382E0E747200A12553 /* ToponRewardVideoAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToponRewardVideoAdViewController.m; sourceTree = "<group>"; };
+		BCB18E392E0E747200A12553 /* ToponSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToponSplashViewController.h; sourceTree = "<group>"; };
+		BCB18E3A2E0E747200A12553 /* ToponSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToponSplashViewController.m; sourceTree = "<group>"; };
+		BCB18E3C2E0E747200A12553 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		F8793559D86117223A902898 /* Pods_BlueXSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueXSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -137,6 +236,15 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* BXViewController.h */,
 				6003F5A6195388D20070C39A /* BXViewController.m */,
+				BCB18E182E0E747200A12553 /* Admob */,
+				BCB18E022E0E747200A12553 /* AdmobDemo */,
+				BCB18E232E0E747200A12553 /* DomobDemo */,
+				BCB18E292E0E747200A12553 /* MAX */,
+				BCB18DFF2E0E747200A12553 /* Topon */,
+				BCB18E3B2E0E747200A12553 /* ToponDemo */,
+				BCB18E112E0E747200A12553 /* TradPlus */,
+				BCB18E3C2E0E747200A12553 /* UIView+Toast.h */,
+				BCB18DE12E0E747200A12553 /* UIView+Toast.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -185,6 +293,199 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		BCB18DE62E0E747200A12553 /* Banneer */ = {
+			isa = PBXGroup;
+			children = (
+				BCB18DE22E0E747200A12553 /* DomobBannerCustomEvent.h */,
+				BCB18DE32E0E747200A12553 /* DomobBannerCustomEvent.m */,
+				BCB18DE42E0E747200A12553 /* DomobCustomBannerAdapter.h */,
+				BCB18DE52E0E747200A12553 /* DomobCustomBannerAdapter.m */,
+			);
+			path = Banneer;
+			sourceTree = "<group>";
+		};
+		BCB18DED2E0E747200A12553 /* Bidding */ = {
+			isa = PBXGroup;
+			children = (
+				BCB18DE72E0E747200A12553 /* DomobBiddingDelegate.h */,
+				BCB18DE82E0E747200A12553 /* DomobBiddingDelegate.m */,
+				BCB18DE92E0E747200A12553 /* DomobBiddingManager.h */,
+				BCB18DEA2E0E747200A12553 /* DomobBiddingManager.m */,
+				BCB18DEB2E0E747200A12553 /* DomobBiddingRequest.h */,
+				BCB18DEC2E0E747200A12553 /* DomobBiddingRequest.m */,
+			);
+			path = Bidding;
+			sourceTree = "<group>";
+		};
+		BCB18DF42E0E747200A12553 /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				BCB18DEE2E0E747200A12553 /* DomobCustomNativeAdapter.h */,
+				BCB18DEF2E0E747200A12553 /* DomobCustomNativeAdapter.m */,
+				BCB18DF02E0E747200A12553 /* DomobNativeCustomEvent.h */,
+				BCB18DF12E0E747200A12553 /* DomobNativeCustomEvent.m */,
+				BCB18DF22E0E747200A12553 /* DomobNativeRenderer.h */,
+				BCB18DF32E0E747200A12553 /* DomobNativeRenderer.m */,
+			);
+			path = Native;
+			sourceTree = "<group>";
+		};
+		BCB18DF92E0E747200A12553 /* RewardedVideo */ = {
+			isa = PBXGroup;
+			children = (
+				BCB18DF52E0E747200A12553 /* DomobCustomRewardedVideoAdapter.h */,
+				BCB18DF62E0E747200A12553 /* DomobCustomRewardedVideoAdapter.m */,
+				BCB18DF72E0E747200A12553 /* DomobRewardedVideoCustomEvent.h */,
+				BCB18DF82E0E747200A12553 /* DomobRewardedVideoCustomEvent.m */,
+			);
+			path = RewardedVideo;
+			sourceTree = "<group>";
+		};
+		BCB18DFE2E0E747200A12553 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				BCB18DFA2E0E747200A12553 /* DomobCustomSplashAdapter.h */,
+				BCB18DFB2E0E747200A12553 /* DomobCustomSplashAdapter.m */,
+				BCB18DFC2E0E747200A12553 /* DomobSplashCustomEvent.h */,
+				BCB18DFD2E0E747200A12553 /* DomobSplashCustomEvent.m */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		BCB18DFF2E0E747200A12553 /* Topon */ = {
+			isa = PBXGroup;
+			children = (
+				BCB18DE62E0E747200A12553 /* Banneer */,
+				BCB18DED2E0E747200A12553 /* Bidding */,
+				BCB18DF42E0E747200A12553 /* Native */,
+				BCB18DF92E0E747200A12553 /* RewardedVideo */,
+				BCB18DFE2E0E747200A12553 /* Splash */,
+			);
+			path = Topon;
+			sourceTree = "<group>";
+		};
+		BCB18E022E0E747200A12553 /* AdmobDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BCB18E002E0E747200A12553 /* AdmobDemoViewController.h */,
+				BCB18E012E0E747200A12553 /* AdmobDemoViewController.m */,
+			);
+			path = AdmobDemo;
+			sourceTree = "<group>";
+		};
+		BCB18E052E0E747200A12553 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				BCB18E032E0E747200A12553 /* DomobBannerTradPlusAdapter.h */,
+				BCB18E042E0E747200A12553 /* DomobBannerTradPlusAdapter.m */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		BCB18E082E0E747200A12553 /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				BCB18E062E0E747200A12553 /* DomobNativeTradPlusAdapter.h */,
+				BCB18E072E0E747200A12553 /* DomobNativeTradPlusAdapter.m */,
+			);
+			path = Native;
+			sourceTree = "<group>";
+		};
+		BCB18E0B2E0E747200A12553 /* Rewarded */ = {
+			isa = PBXGroup;
+			children = (
+				BCB18E092E0E747200A12553 /* DomobRewardedTradPlusAdapter.h */,
+				BCB18E0A2E0E747200A12553 /* DomobRewardedTradPlusAdapter.m */,
+			);
+			path = Rewarded;
+			sourceTree = "<group>";
+		};
+		BCB18E0E2E0E747200A12553 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				BCB18E0C2E0E747200A12553 /* DomobSplashTradPlusAdapter.h */,
+				BCB18E0D2E0E747200A12553 /* DomobSplashTradPlusAdapter.m */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		BCB18E112E0E747200A12553 /* TradPlus */ = {
+			isa = PBXGroup;
+			children = (
+				BCB18E052E0E747200A12553 /* Banner */,
+				BCB18E082E0E747200A12553 /* Native */,
+				BCB18E0B2E0E747200A12553 /* Rewarded */,
+				BCB18E0E2E0E747200A12553 /* Splash */,
+				BCB18E0F2E0E747200A12553 /* TradplusDemoViewController.h */,
+				BCB18E102E0E747200A12553 /* TradplusDemoViewController.m */,
+			);
+			path = TradPlus;
+			sourceTree = "<group>";
+		};
+		BCB18E182E0E747200A12553 /* Admob */ = {
+			isa = PBXGroup;
+			children = (
+				BCB18E122E0E747200A12553 /* DomobBannerAdmobAdapter.h */,
+				BCB18E132E0E747200A12553 /* DomobBannerAdmobAdapter.m */,
+				BCB18E142E0E747200A12553 /* DomobCustomEventAdmobAdapter.h */,
+				BCB18E152E0E747200A12553 /* DomobCustomEventAdmobAdapter.m */,
+				BCB18E162E0E747200A12553 /* DomobRewardVideoAdmobAdapter.h */,
+				BCB18E172E0E747200A12553 /* DomobRewardVideoAdmobAdapter.m */,
+			);
+			path = Admob;
+			sourceTree = "<group>";
+		};
+		BCB18E232E0E747200A12553 /* DomobDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BCB18E192E0E747200A12553 /* BannerAdViewController.h */,
+				BCB18E1A2E0E747200A12553 /* BannerAdViewController.m */,
+				BCB18E1B2E0E747200A12553 /* InterstitialAdViewController.h */,
+				BCB18E1C2E0E747200A12553 /* InterstitialAdViewController.m */,
+				BCB18E1D2E0E747200A12553 /* NativeAdViewController.h */,
+				BCB18E1E2E0E747200A12553 /* NativeAdViewController.m */,
+				BCB18E1F2E0E747200A12553 /* RewardVideoAdViewController.h */,
+				BCB18E202E0E747200A12553 /* RewardVideoAdViewController.m */,
+				BCB18E212E0E747200A12553 /* SplashAViewController.h */,
+				BCB18E222E0E747200A12553 /* SplashAViewController.m */,
+			);
+			path = DomobDemo;
+			sourceTree = "<group>";
+		};
+		BCB18E262E0E747200A12553 /* MaxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BCB18E242E0E747200A12553 /* ALBannerViewController.h */,
+				BCB18E252E0E747200A12553 /* ALBannerViewController.m */,
+			);
+			path = MaxDemo;
+			sourceTree = "<group>";
+		};
+		BCB18E292E0E747200A12553 /* MAX */ = {
+			isa = PBXGroup;
+			children = (
+				BCB18E262E0E747200A12553 /* MaxDemo */,
+				BCB18E272E0E747200A12553 /* ALDomobMediationAdapter.h */,
+				BCB18E282E0E747200A12553 /* ALDomobMediationAdapter.m */,
+			);
+			path = MAX;
+			sourceTree = "<group>";
+		};
+		BCB18E3B2E0E747200A12553 /* ToponDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BCB18E332E0E747200A12553 /* ToponBannerViewController.h */,
+				BCB18E342E0E747200A12553 /* ToponBannerViewController.m */,
+				BCB18E352E0E747200A12553 /* ToponNativeViewController.h */,
+				BCB18E362E0E747200A12553 /* ToponNativeViewController.m */,
+				BCB18E372E0E747200A12553 /* ToponRewardVideoAdViewController.h */,
+				BCB18E382E0E747200A12553 /* ToponRewardVideoAdViewController.m */,
+				BCB18E392E0E747200A12553 /* ToponSplashViewController.h */,
+				BCB18E3A2E0E747200A12553 /* ToponSplashViewController.m */,
+			);
+			path = ToponDemo;
+			sourceTree = "<group>";
+		};
 		EDD6BAD1CF60288598FC58F3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +494,6 @@
 				75A39953409FDF5DE666E3E3 /* Pods-BlueXSDK_Tests.debug.xcconfig */,
 				85523F92A7AFD62F8C25595D /* Pods-BlueXSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,7 +528,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				9EA0669E4D878A4F67CC7E3C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +549,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = dmdsp;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = J392M2H9CQ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -260,6 +562,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -305,10 +608,20 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BlueXSDK_Example/Pods-BlueXSDK_Example-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/BlueXSDK/DomobAdSDK_Bundle.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Google-Mobile-Ads-SDK/GoogleMobileAdsResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUserMessagingPlatform/UserMessagingPlatformResources.bundle",
+				"${PODS_ROOT}/TPExchange/TPExchange/TradPlusADX.bundle",
+				"${PODS_ROOT}/TPNiOS/core/AnyThinkSDK.bundle",
+				"${PODS_ROOT}/TradPlusAdSDK/TradPlusAdSDK/TradPlusAds.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DomobAdSDK_Bundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMobileAdsResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UserMessagingPlatformResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TradPlusADX.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AnyThinkSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TradPlusAds.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -323,10 +636,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BlueXSDK_Example/Pods-BlueXSDK_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AppLovinSDK/AppLovinSDK.framework/AppLovinSDK",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppLovinSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -353,24 +668,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9EA0669E4D878A4F67CC7E3C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BlueXSDK_Tests/Pods-BlueXSDK_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlueXSDK_Tests/Pods-BlueXSDK_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD5DD962687A3A124092D737 /* [CP] Check Pods Manifest.lock */ = {
@@ -402,9 +699,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCB18E402E0E747200A12553 /* DomobBiddingDelegate.m in Sources */,
+				BCB18E482E0E747200A12553 /* DomobCustomSplashAdapter.m in Sources */,
+				BCB18E4E2E0E747200A12553 /* DomobSplashTradPlusAdapter.m in Sources */,
+				BCB18E472E0E747200A12553 /* DomobRewardedVideoCustomEvent.m in Sources */,
+				BCB18E3D2E0E747200A12553 /* UIView+Toast.m in Sources */,
+				BCB18E3E2E0E747200A12553 /* DomobBannerCustomEvent.m in Sources */,
 				6003F59E195388D20070C39A /* BXAppDelegate.m in Sources */,
+				BCB18E4B2E0E747200A12553 /* DomobBannerTradPlusAdapter.m in Sources */,
+				BCB18E4A2E0E747200A12553 /* AdmobDemoViewController.m in Sources */,
+				BCB18E422E0E747200A12553 /* DomobBiddingRequest.m in Sources */,
 				6003F5A7195388D20070C39A /* BXViewController.m in Sources */,
+				BCB18E572E0E747200A12553 /* SplashAViewController.m in Sources */,
+				BCB18E512E0E747200A12553 /* DomobCustomEventAdmobAdapter.m in Sources */,
+				BCB18E592E0E747200A12553 /* ALDomobMediationAdapter.m in Sources */,
+				BCB18E642E0E747200A12553 /* ToponRewardVideoAdViewController.m in Sources */,
+				BCB18E462E0E747200A12553 /* DomobCustomRewardedVideoAdapter.m in Sources */,
+				BCB18E652E0E747200A12553 /* ToponSplashViewController.m in Sources */,
+				BCB18E4C2E0E747200A12553 /* DomobNativeTradPlusAdapter.m in Sources */,
+				BCB18E412E0E747200A12553 /* DomobBiddingManager.m in Sources */,
+				BCB18E452E0E747200A12553 /* DomobNativeRenderer.m in Sources */,
+				BCB18E442E0E747200A12553 /* DomobNativeCustomEvent.m in Sources */,
+				BCB18E4F2E0E747200A12553 /* TradplusDemoViewController.m in Sources */,
+				BCB18E632E0E747200A12553 /* ToponNativeViewController.m in Sources */,
+				BCB18E552E0E747200A12553 /* NativeAdViewController.m in Sources */,
+				BCB18E492E0E747200A12553 /* DomobSplashCustomEvent.m in Sources */,
+				BCB18E4D2E0E747200A12553 /* DomobRewardedTradPlusAdapter.m in Sources */,
+				BCB18E502E0E747200A12553 /* DomobBannerAdmobAdapter.m in Sources */,
+				BCB18E532E0E747200A12553 /* BannerAdViewController.m in Sources */,
+				BCB18E3F2E0E747200A12553 /* DomobCustomBannerAdapter.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				BCB18E432E0E747200A12553 /* DomobCustomNativeAdapter.m in Sources */,
+				BCB18E522E0E747200A12553 /* DomobRewardVideoAdmobAdapter.m in Sources */,
+				BCB18E582E0E747200A12553 /* ALBannerViewController.m in Sources */,
+				BCB18E562E0E747200A12553 /* RewardVideoAdViewController.m in Sources */,
+				BCB18E622E0E747200A12553 /* ToponBannerViewController.m in Sources */,
+				BCB18E542E0E747200A12553 /* InterstitialAdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,11 +862,12 @@
 			baseConfigurationReference = 974CF680D3D0F60C84124D96 /* Pods-BlueXSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J392M2H9CQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlueXSDK/BlueXSDK-Prefix.pch";
 				INFOPLIST_FILE = "BlueXSDK/BlueXSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domob.visionai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -548,11 +879,12 @@
 			baseConfigurationReference = 54E96627AD26DF538F90BBB4 /* Pods-BlueXSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J392M2H9CQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlueXSDK/BlueXSDK-Prefix.pch";
 				INFOPLIST_FILE = "BlueXSDK/BlueXSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domob.visionai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

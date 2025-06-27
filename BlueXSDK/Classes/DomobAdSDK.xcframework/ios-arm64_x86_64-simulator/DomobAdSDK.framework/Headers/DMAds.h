@@ -16,8 +16,7 @@ typedef void(^CompletionEvent)(BOOL success);
 
 // 单例
 +(instancetype)shareInstance;
-/// 关闭定位权限,但还是需要配置,只是SDK不会去获取定位信息
--(void)setLocationDisable;
+
 //SDK 初始化
 -(void)initSDKWithAppId:(NSString*)appId;
 //获取SDK版本号

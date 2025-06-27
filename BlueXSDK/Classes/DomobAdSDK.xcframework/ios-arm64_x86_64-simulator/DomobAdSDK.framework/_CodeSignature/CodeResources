@@ -6,15 +6,19 @@
 	<dict>
 		<key>Headers/DMAds.h</key>
 		<data>
-		GwgVR2muzWBU9SpcceApi+J+7S8=
+		AW+McHD0G+c9/4j8Am52cXUENGE=
 		</data>
 		<key>Headers/DM_BannerAd.h</key>
 		<data>
-		8ApYr9YH5XP5ebk5KOYlfR6dmro=
+		vbfdPPV5abkjfmPxHF4itcu80PU=
 		</data>
 		<key>Headers/DM_BannerView.h</key>
 		<data>
-		pmUjsXZFYCyb9emz/SjI2+riU2o=
+		lBQXrdPdHkPBzcvtn8WNzrJbsBY=
+		</data>
+		<key>Headers/DM_InterstitialAd.h</key>
+		<data>
+		mUEPJd4wPpm5eTkGqp2auOzN5Fo=
 		</data>
 		<key>Headers/DM_Macro.h</key>
 		<data>
@@ -32,17 +36,13 @@
 		<data>
 		esPy8mMhY/1csqnU7G3FKvyiqUM=
 		</data>
-		<key>Headers/DM_RewarVideoModel.h</key>
-		<data>
-		Xc1TEOp130zFc/83ZGjyjAq0Kyk=
-		</data>
 		<key>Headers/DM_RewardVideoAd.h</key>
 		<data>
-		jW8Uc3cv+eFt3Q95U9Ou+yRtZ7I=
+		7aq0YsYFRx6chz4mIjaA9i/VQXc=
 		</data>
 		<key>Headers/DM_SplashAd.h</key>
 		<data>
-		fy4M0hk7rXeo0+xSZQkJZtbiQ4A=
+		qZMWkRWEkQyXdSeyLgOAkMZbBAQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -59,33 +59,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GwgVR2muzWBU9SpcceApi+J+7S8=
+			AW+McHD0G+c9/4j8Am52cXUENGE=
 			</data>
 			<key>hash2</key>
 			<data>
-			CvuAnZFsi24Adf39iM0YRnb1I5S9ma3AOLHlZpZ2gxs=
+			TIRo50GwGOjbu1HrV/naBhN9wJgPLRUtMF2cQRaOeco=
 			</data>
 		</dict>
 		<key>Headers/DM_BannerAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8ApYr9YH5XP5ebk5KOYlfR6dmro=
+			vbfdPPV5abkjfmPxHF4itcu80PU=
 			</data>
 			<key>hash2</key>
 			<data>
-			qNZA7FcPlAtE4YnxeYTKYLmyElDWDu3QP30CkpVw1QY=
+			BJxB+bxze7WuIku80+gz0EVam06nMu+Qc0pOTHb05uE=
 			</data>
 		</dict>
 		<key>Headers/DM_BannerView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pmUjsXZFYCyb9emz/SjI2+riU2o=
+			lBQXrdPdHkPBzcvtn8WNzrJbsBY=
 			</data>
 			<key>hash2</key>
 			<data>
-			J4wO1xh5XnWZnJnUamuP/gcXSD9m+bOoWX4mna0jNEs=
+			DB/CfbW30UFOpXb6XIBYa8yjUNl7YDxxbtVEJmFNhbw=
+			</data>
+		</dict>
+		<key>Headers/DM_InterstitialAd.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mUEPJd4wPpm5eTkGqp2auOzN5Fo=
+			</data>
+			<key>hash2</key>
+			<data>
+			QxsoCFJeXeTsh0qo2oV3jV5KxXVdxo1iI/6y9WzxhLw=
 			</data>
 		</dict>
 		<key>Headers/DM_Macro.h</key>
@@ -132,37 +143,26 @@
 			1fTFTTnVJiNpBhLCMwjp+AYKbTr9VS4QPp8kdpVMJUs=
 			</data>
 		</dict>
-		<key>Headers/DM_RewarVideoModel.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Xc1TEOp130zFc/83ZGjyjAq0Kyk=
-			</data>
-			<key>hash2</key>
-			<data>
-			fNFnvi8otiSEUZcNrWLVyBsQYqZyIjjlx7qvJA+ejSs=
-			</data>
-		</dict>
 		<key>Headers/DM_RewardVideoAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jW8Uc3cv+eFt3Q95U9Ou+yRtZ7I=
+			7aq0YsYFRx6chz4mIjaA9i/VQXc=
 			</data>
 			<key>hash2</key>
 			<data>
-			mEcEsKL0gCJQ+2T1mf0c2G4WIkvIW83jhtBPfAJ+kmk=
+			4irv0OGcRxkthO/ydYdo/jzyoHV+quIEtlnoaugeQVo=
 			</data>
 		</dict>
 		<key>Headers/DM_SplashAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fy4M0hk7rXeo0+xSZQkJZtbiQ4A=
+			qZMWkRWEkQyXdSeyLgOAkMZbBAQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			sz7lWnp2Cz16yP1ctfFgWcmOJDFAAnNf0Jlt3dLDosY=
+			l1k9paoSiMNEG7jxnkUvytauVV4iQy5+A/S2hkdIZsI=
 			</data>
 		</dict>
 		<key>PrivateHeaders/DM_ADModel.h</key>

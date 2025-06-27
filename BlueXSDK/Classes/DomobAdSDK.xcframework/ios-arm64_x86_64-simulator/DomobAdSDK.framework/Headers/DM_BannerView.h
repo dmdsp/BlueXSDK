@@ -9,6 +9,7 @@
 #import <DomobAdSDK/DM_BannerAd.h>
 
 NS_ASSUME_NONNULL_BEGIN
+@class DM_ADModel;
 
 typedef void(^ClickCloseEvent)(void);
 typedef void(^DidShowEvent)(void);
@@ -19,10 +20,14 @@ typedef void(^ClickLinkEvent)(void);
 @property (nonatomic, copy) ClickCloseEvent closeEvent;
 @property (nonatomic, copy) DidShowEvent showEvent;
 @property (nonatomic, copy) ClickLinkEvent linkEvent;
+@property (nonatomic, strong) DM_ADModel *adModel;
+@property (nonatomic, copy) NSString *title;
+@property (nonatomic, copy) NSString *subTitle;
 
--(instancetype)initWithBannerViewSize:(CGSize)viewSize content:(NSString*)content;
+-(instancetype)initWithBannerViewSize:(CGSize)viewSize content:(NSString*)content isVASTProtocol:(BOOL)isVASTProtocol;
 //关闭当前view
 - (void)dismissADView;
 @end
 
 NS_ASSUME_NONNULL_END
+ 

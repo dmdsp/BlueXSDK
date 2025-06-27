@@ -31,8 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 初始化激励视频和配置、代理
 /// - Parameter delegate: 代理
 /// - Parameter slotID: 广告位id
-/// - Parameter model:  额外的数据
-- (instancetype)loadRewardVideoAdTemplateAdWithSlotID:(NSString *)slotID withRewarVideoModel:(DM_RewarVideoModel*)model delegate:(id<DMRewardVideoAdDelegate>)delegate ;
+- (instancetype)loadRewardVideoAdTemplateAdWithSlotID:(NSString *)slotID  delegate:(id<DMRewardVideoAdDelegate>)delegate ;
 //竞价成功的上报
 - (void)biddingRewardVideoSuccess:(long)price;
 //竞价失败的上报
@@ -40,7 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 展示广告
 /// - Parameter viewController: 传入一个控制器
 -(void)showRewardVideoViewInRootViewController:(UIViewController *)viewController;
-
+- (BOOL)isReady;
 @end
 
 @protocol DMRewardVideoAdDelegate <NSObject>
@@ -64,10 +63,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)rewardVideoAdDidComplete:(DM_RewardVideoAd *)rewardVideoAd;
 ///视频播放完成
 - (void)rewardVideoAdPlayToEndTime:(DM_RewardVideoAd *)rewardVideoAd;
-/// 广告详情页关闭回调
-- (void)rewardVideoAdDetailViewDidClose:(DM_RewardVideoAd *)rewardVideoAd;
-/// 广告详情页将展示回调
-- (void)rewardVideoAdDetailViewDidPresentScreen:(DM_RewardVideoAd *)rewardVideoAd;
 @end
 
 NS_ASSUME_NONNULL_END

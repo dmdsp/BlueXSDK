@@ -10,14 +10,6 @@
 @protocol DMBannerAdDelegate;
 @class DM_BannerView;
 
-typedef NS_ENUM(NSInteger, ViewSize) {
-    ViewSize320x50,  // 320x50
-    ViewSize320x100, // 320x100
-    ViewSize300x50,  // 300x50
-    ViewSize300x250, // 300x250
-    ViewSize250x250  // 250x250
-};
-
 NS_ASSUME_NONNULL_BEGIN
 @interface DM_BannerAd : NSObject
 //广告位id
@@ -37,12 +29,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// - Parameter delegate: 代理
 /// - Parameter slotID: 广告位id
 /// - Parameter isHidden:设置点击关闭时弹出视图是否隐藏，是为隐藏
-- (instancetype)loadBannerAdTemplateAdWithSlotID:(NSString *)slotID ViewSize:(ViewSize)viewSize delegate:(id<DMBannerAdDelegate>)delegate ;
+- (instancetype)loadBannerAdTemplateAdWithSlotID:(NSString *)slotID delegate:(id<DMBannerAdDelegate>)delegate ;
 //竞价成功的上报
 - (void)biddingBannerSuccess:(long)price;
 //竞价失败的上报
 - (void)biddingBannerFailed:(long)price Code:(int)code;
-
+- (BOOL)isReady;
 @end
 
 @protocol DMBannerAdDelegate <NSObject>

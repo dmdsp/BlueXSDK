@@ -1,31 +1,53 @@
 PODS:
-  - BlueXSDK (0.2.0):
+  - AppLovinSDK (13.3.1)
+  - BlueXSDK (2.1.1):
     - Protobuf (~> 3.27)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
+  - Google-Mobile-Ads-SDK (11.13.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleUserMessagingPlatform (3.0.0)
   - Protobuf (3.29.4)
+  - TPExchange (13.0.0)
+  - TPNiOS (6.4.87):
+    - TPNiOS/TPNSDK (= 6.4.87)
+  - TPNiOS/TPNSDK (6.4.87)
+  - TradPlusAdSDK (13.0.0):
+    - TradPlusAdSDK/TradPlusAds (= 13.0.0)
+  - TradPlusAdSDK/TPCrossAdapter (13.0.0)
+  - TradPlusAdSDK/TradPlusAds (13.0.0):
+    - TPExchange (= 13.0.0)
 
 DEPENDENCIES:
+  - AppLovinSDK
   - BlueXSDK (from `../`)
-  - FBSnapshotTestCase
+  - Google-Mobile-Ads-SDK (~> 11.12)
+  - TPNiOS
+  - TradPlusAdSDK (= 13.0.0)
+  - TradPlusAdSDK/TPCrossAdapter (= 13.0.0)
 
 SPEC REPOS:
   trunk:
-    - FBSnapshotTestCase
+    - AppLovinSDK
+    - Google-Mobile-Ads-SDK
+    - GoogleUserMessagingPlatform
     - Protobuf
+    - TPExchange
+    - TPNiOS
+    - TradPlusAdSDK
 
 EXTERNAL SOURCES:
   BlueXSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BlueXSDK: 44add65b83af6f1133ad1eb621b1b92f7b515501
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  AppLovinSDK: 5075837afdee4fb429121799b8cbcc5918ef3a23
+  BlueXSDK: 90bbe2de34e5aa3c1a0c3826eb5b44ae9be68edd
+  Google-Mobile-Ads-SDK: 14f57f2dc33532a24db288897e26494640810407
+  GoogleUserMessagingPlatform: f8d0cdad3ca835406755d0a69aa634f00e76d576
   Protobuf: 2e6de032ba12b9efb390ae550d1a243a5b19ddfc
+  TPExchange: 0c04349ec17f9c23104edec3ffe8ab2e918423c1
+  TPNiOS: 9c09ef73659b1e3ff234e0998c27507b53859376
+  TradPlusAdSDK: a25f835bc41b70fbdd052b8683356ff509081ebe
 
-PODFILE CHECKSUM: fb0b9934fbf4f22edd8029536995caf95c49a21c
+PODFILE CHECKSUM: cd09c68df3b33104d3caf653c8fcd2521b94a86b
 
 COCOAPODS: 1.15.2

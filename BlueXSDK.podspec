@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BlueXSDK'
-  s.version          = '0.2.0'
+  s.version          = '2.1.1'
   s.summary          = 'A lightweight ad SDK. 轻量级广告SDK'
 
   # 简要描述（中英文）
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shilin.liu' => 'shilin.liu@domob.cn' }
-  s.source           = { :git => 'https://github.com/dmdsp/DomobAdSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/dmdsp/BlueXSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
   s.ios.deployment_target = '12.0'
